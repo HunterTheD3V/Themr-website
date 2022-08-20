@@ -1,0 +1,87 @@
+.meta {
+  	display: flex;
+	justify-content: start;
+}
+
+#img-themr {
+	flex-grow: 0;
+}
+
+.title-themr {
+	flex-grow: 5;
+	display: flex;
+	color: white;
+	justify-content: center;
+	 font-family: 'Teko', sans-serif;
+}
+
+body {
+            background-color: #000219; 
+        }
+stg {
+       	display: flex;
+	justify-content: right;
+
+}
+/* fun fact: paebukoa is dumb
+        header .meta {
+            display: block;
+            border-radius: 4px;
+        } 
+
+/*        .meta img {
+            display: inline;
+        }
+
+
+        .meta h1 {
+            display: inline;
+            position: absoulute;
+           
+            top: 1px;
+	    color: white;
+        }
+*/
+        hr {
+            border-width: 5px;
+            border-color: #ADD8E6;
+            border-style: solid;
+            border-radius: 5px;
+	    color: #a3fffdaa;
+        }
+
+	h2 {
+		font-family: 'Inconsolata', monospace;
+		color: crimson;
+	}
+
+        main {
+            display: block;
+            border-radius: 4px;
+            padding: 1px;
+            margin: 1px;
+            font-family: 'Quicksand', sans-serif;
+	    color: #a3fffdaa;
+        }
+	footer {
+		position: absolute;
+		color: #abababaa;
+	}
+	li {
+ 	 float: left;
+	 display: inline;
+}
+
+	a {
+ 	 display: block;
+ 	 padding: 10px;
+	 margin: 1px;
+  	background-color: #000269;
+	color: aqua ;
+	font-family: 'Quicksand', sans-serif;
+}
+	ul {
+	  list-style-type: none;
+ 	  margin: 0;
+	  padding: 0;
+}
