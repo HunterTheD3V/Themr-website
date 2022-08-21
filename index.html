@@ -6,16 +6,21 @@
   <meta name="viewport" content="width=device-width">
      <title>HytesCord THEMR Web | HyTera Development</title>
      <link rel="icon" type="image/x-icon" href="website.assets/images/THEMR-LOGO.ico">
-	  <link href='website.assets/styles.css' rel='stylesheet'>
+	  <link href='website.assets/styles/shared.css' rel='stylesheet'>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Quicksand:wght@500;600;700&family=Roboto:wght@900&family=Teko:wght@500&display=swap" rel="stylesheet">
      <meta name="theme-color" content="#ADD8E6" />
 </head>
 
-<style>
-        
-    </style>
+<script>
+var os = require('os');
+
+console.log("A new user visited the site!");
+console.log("User's Platform: " + os.platform());
+console.log("User's OS Architecture: " + os.arch());
+console.log("User's OS Name: " + os.type())
+</script>
 
 <body>
 
@@ -37,7 +42,7 @@
   <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">About THEMR</a></li>
 </ul>
       <ul>
-	   <stg> <li><a href="settings/index.html">Settings</a></li></stg> 
+	   <stg> <li class="fade"><a href="settings.html">Settings</a></li></stg> 
       </ul>
 	<hr />
   <br><h2>Unfortunately, we cannot manage your failure at this time</h2>

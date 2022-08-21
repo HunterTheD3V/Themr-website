@@ -1,0 +1,25 @@
+{
+  "name": "themr-site",
+  "version": "1.0.0",
+  "description": "Official Website for the HytesCord THEMR extension developed by HyTera Development",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo: \"never gonna run arround and, desert you\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HunterD3V/Themr-website.git"
+  },
+  "keywords": [
+    "0"
+  ],
+  "author": "HyTera Development",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HunterD3V/Themr-website/issues"
+  },
+  "homepage": "https://github.com/HunterD3V/Themr-website#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

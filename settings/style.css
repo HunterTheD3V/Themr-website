@@ -57,13 +57,15 @@ body {
 	    color: #a3fffdaa;
         }
 
-	h1 {
-		font-family: 'Inconsolata', monospace;
-		color: aquamarine;
-	}
+
         h2 {
 		font-family: 'Inconsolata', monospace;
 		color: aliceblue;
+		size: 18px;
+	}
+	h4 {
+		font-family: 'Quicksand', semibold;
+		color: seashell;
 	}
 
         main {
